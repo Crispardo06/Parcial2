@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetalleManga">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="100dp">
+
+            <ImageView
+                android:id="@+id/img_detalle_manga"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/ic_launcher_background" />
+
+
+            <TextView
+                android:id="@+id/txt_nombre_manga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre" />
+
+            <TextView
+                android:id="@+id/txt_autor_manga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autor" />
+
+            <TextView
+                android:id="@+id/txt_fecha_manga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha" />
+
+            <TextView
+                android:id="@+id/txt_sinopsis_manga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Sinopsis" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Leer"
+                android:backgroundTint="#4CAF50"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
